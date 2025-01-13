@@ -1,6 +1,6 @@
-/* *{
+*{
   outline: solid red 2px;
-} */
+}
 
 /* * {
   margin: 0;
@@ -20,6 +20,10 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+a{
+  color:#86a9c9;
 }
 
 h1 {
@@ -116,8 +120,54 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
+.highlight-flex a{
+  display: block;
+}
+
+.highlight-flex img{
+  width: 20rem;
+  height: 20rem;
+}
+
+h2{
+  font-size: 3.6rem;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.photo-highlight p {
+  color: #1f2937;
+  font-size: 1.5rem;
+}
+
+.customer-quote{
+  background-color: #e5e7eb;
+  font-size: 3.6rem;
+  font-style: italic;
+  font-weight: 200;
+  color: #1f2937;
+}
+
+.customer-quote{
+  padding: 5rem 10rem
+}
+.customer-quote span{
+  font-size: 3.6rem;
+  font-style: italic ;
+  font-weight: 400; 
+  float: right;
+  margin-right: 5rem;
+   
+}
+
+.footer-box{
+  background-color: #3882F6;
+  
+
+}
 
 
 @media (max-width:500px) {
@@ -150,5 +200,10 @@ nav {
 @media (max-width:907px){
   .hero-left{
     text-align: center;
+  }
+}
+  @media (min-width: 1300px){
+    .highlight-flex{
+      gap: 10rem;
   }
 }
